@@ -44,7 +44,7 @@ Your way of testing will be looked at by the CEO of Improvado. Think about what 
 Upon completion of this test task, your output will be crucial in assessing your ability to work with LLMs, ClickHouse databases, and develop practical solutions for tasks like Text2SQL conversion. Good luck, and we look forward to reviewing your work!
 
 ## Additional materials
-### Frameworks for working with LLM models, which we sometimes look to for good examples:
+### Frameworks for working with LLM models, which we sometimes look to for good examples.
 - Langchain (https://docs.langchain.com/docs/)
 - LlamaIndex (https://gpt-index.readthedocs.io/en/latest/) 
 
