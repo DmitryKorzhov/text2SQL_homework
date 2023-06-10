@@ -10,8 +10,8 @@ Text2SQL system that operates on a ClickHouse database containing dummy marketin
 
 ## Homework description
 ### Prepare a databease for your Text2SQL model.
-Generate a dummy marketing dataset with a variety of data types and columns. 
-The dataset must be able to answer the following questions:
+Generate a dummy marketing data with a variety of tabels and columns. 
+The data must be able to answer the following questions:
 - How many active agency customers did we have on January 1st, 2022?
 - When did we get the highest number of users per day in Q1 2023?
 - When did we get the maximum of daily visits on the website in 2022?
@@ -20,7 +20,7 @@ The dataset must be able to answer the following questions:
 - Which platform had the highest CPC in 2022: Google or Bing?
 - Get the best ad name by clicks from Facebook, Google, and LinkedIn for 2022.
 
-Import the dataset into a ClickHouse database and set up the appropriate schema. 
+Import the data into a ClickHouse database and set up the appropriate schema. 
 
 Our reccomendation: use ClickHouse Cloud (https://clickhouse.cloud) for database creation, as it has a free trial and is easy to set up.
 
