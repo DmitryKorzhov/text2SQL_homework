@@ -22,7 +22,15 @@ The data must be able to answer the following questions:
 
 Import the data into a ClickHouse database and set up the appropriate schema. 
 
-Our reccomendation: use ClickHouse Cloud (https://clickhouse.cloud) for database creation, as it has a free trial and is easy to set up.
+Reccomendation 1: use ClickHouse Cloud (https://clickhouse.cloud) for database creation, as it has a free trial and is easy to set up.
+
+Reccomendation 2: generate dummy data for these questions via GPT. Example of prompt: 
+```
+Generate Clickhouse query that will create a new table in DB to answer these questions:
+{list of questions}
+You can add any additional fields into the table to do it more complex.
+I need 100 rows in the table.
+```
 
 ### Implement a Text2SQL system using LLMs. 
 Our product relies on the LLM model GPT-4. With prompting, we take the question, create the context, and generate the right SQL. Your task is to make a model based on one of the LLMs (Hugging Face, GPT or something else) and implement the functionality so that your model can correctly make queries and answer the questions we have attached above.
